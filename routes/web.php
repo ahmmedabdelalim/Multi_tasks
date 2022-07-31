@@ -22,4 +22,5 @@ Route::get('/', function () {
 Route::group(['prefix' => 'extract_text']  ,  function (){
 
     route::get('index' , [ExtractController::class ,'index']);
+    Route::post('google-ocr', [ExtractController::class, 'submit'])->name('submit');
 } );
