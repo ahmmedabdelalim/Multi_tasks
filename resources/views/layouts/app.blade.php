@@ -11,6 +11,8 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 
   <title>HighPro</title>
 
