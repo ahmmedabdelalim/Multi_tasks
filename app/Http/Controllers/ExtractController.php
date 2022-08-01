@@ -16,7 +16,7 @@ class ExtractController extends Controller
 
     public function home()
     {
-        return view('welcome');
+        return view('service');
     }
     public function index()
     {
