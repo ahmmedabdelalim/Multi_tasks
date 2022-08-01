@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    route::get('index' , [ExtractController::class ,'home']);
-});
+
+    route::get('/' , [ExtractController::class ,'home']);
+
 
 
 Route::group(['prefix' => 'extract_text']  ,  function (){
