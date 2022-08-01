@@ -14,6 +14,10 @@ class ExtractController extends Controller
     //
 
 
+    public function home()
+    {
+        return view('welcome');
+    }
     public function index()
     {
         return view('extract.extract_text');
@@ -37,15 +41,15 @@ class ExtractController extends Controller
 					'key'    => 'AKIAWRZ47C2L3FCJOI32',
 					'secret' => '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'
 				]
-					
+
 			]);
-			
+
 			$data = $client->detectText([
 				'Image' => array(
 					'Bytes' => $image,
 				),
 			])['TextDetections'];
-			
+
 			$string = '';
 			// Make a string of all words which are detected from image
 			foreach($data as $item)
@@ -82,19 +86,19 @@ class ExtractController extends Controller
         //         $text = $response->getTextAnnotations();
 
         //         echo $text[0]->getDescription();
- 
+
         //           if ($error = $response->getError()) {
         //               print('API Error: ' . $error->getMessage() . PHP_EOL);
         //           }
-                 
+
         //         // $client = new ImageAnnotatorClient();
         //         // $client->setImage($image);
         //         // $client->setFeature("TEXT_DETECTION");
-    
+
         //         // $google_request = new GoogleCloudVision([$client],  env('GOOGLE_CLOUD_KEY'));
-    
+
         //         // $response = $google_request->annotate();
-    
+
         //         // dd($response);
         //     }
         // }
@@ -102,6 +106,6 @@ class ExtractController extends Controller
         // {
         //     dd($ex);
         // }
-       
+
     }
 }
