@@ -284,7 +284,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/feature-img.png" alt="">
+            <img src="{{asset('public/asset/images/feature-img.png')}}" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -320,7 +320,8 @@
       <div class="blog_container">
         <div class="box">
           <div class="img-box">
-            <img src="images/b-1.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-1.jpg')}}" alt="">
+
           </div>
           <div class="detail-box">
             <h5>
@@ -334,7 +335,8 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/b-2.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-2.jpg')}}" alt="">
+
           </div>
           <div class="detail-box">
             <h5>
@@ -348,7 +350,8 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/b-3.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-3.jpg')}}" alt="">
+
           </div>
           <div class="detail-box">
             <h5>
@@ -391,7 +394,7 @@
             <div class="client_container">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                  <img src="{{asset('public/asset/images/client.png')}}" alt="">
                 </div>
                 <div class="detail-box">
                   <p>
@@ -409,7 +412,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -427,7 +431,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -449,7 +454,8 @@
             <div class="client_container">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -467,7 +473,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -485,7 +492,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -507,7 +515,8 @@
             <div class="client_container">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -543,7 +552,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -565,7 +575,8 @@
             <div class="client_container">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -583,7 +594,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>
@@ -601,7 +613,8 @@
               </div>
               <div class="box">
                 <div class="img-box">
-                  <img src="images/client.png" alt="">
+                    <img src="{{asset('public/asset/images/client.png')}}" alt="">
+
                 </div>
                 <div class="detail-box">
                   <p>

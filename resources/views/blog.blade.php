@@ -12,7 +12,7 @@
       <div class="blog_container">
         <div class="box">
           <div class="img-box">
-            <img src="images/b-1.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-1.jpg')}}" alt="">
           </div>
           <div class="detail-box">
             <h5>
@@ -26,7 +26,8 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/b-2.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-2.jpg')}}" alt="">
+
           </div>
           <div class="detail-box">
             <h5>
@@ -40,7 +41,8 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/b-3.jpg" alt="">
+            <img src="{{asset('public/asset/images/b-3.jpg')}}" alt="">
+
           </div>
           <div class="detail-box">
             <h5>
