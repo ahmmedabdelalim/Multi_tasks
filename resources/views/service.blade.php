@@ -25,44 +25,16 @@
                 <path d="M16,10h10c0.552,0,1-0.447,1-1s-0.448-1-1-1H16c-0.552,0-1,0.447-1,1S15.448,10,16,10z" />
                 <path d="M16,24h24c0.552,0,1-0.447,1-1s-0.448-1-1-1H16c-0.552,0-1,0.447-1,1S15.448,24,16,24z" />
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+
             </svg>
           </div>
           <div class="detail-box">
-            <h5>
-              Storage
+            <h5 >
+             <a href="{{url('/extract_text/index')}}">Extract Text From  Images</a>
             </h5>
             <p>
-              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                The text extractor will allow you to extract text from any image. You may upload an image or document
+                 (.pdf) and the tool will pull text from the image. Once extracted, you can copy to your clipboard with one click.
             </p>
           </div>
         </div>
@@ -152,36 +124,7 @@
                  C178.283,152.597,179.051,145.899,175.36,141.291z" />
                 </g>
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+
             </svg>
 
           </div>
@@ -219,36 +162,7 @@
                  s22.015,9.876,22.015,22.015S399.777,142.396,387.638,142.396z" />
                 </g>
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+             
             </svg>
 
           </div>

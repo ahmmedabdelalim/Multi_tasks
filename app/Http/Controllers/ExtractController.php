@@ -14,10 +14,7 @@ class ExtractController extends Controller
     //
 
 
-    public function home()
-    {
-        return view('service');
-    }
+   
     public function index()
     {
         return view('extract.extract_text');

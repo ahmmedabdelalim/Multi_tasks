@@ -39,7 +39,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="{{url('/index')}}">
             <img src="{{asset('public/asset/images/logo.png')}}" alt="" />
             <span>
               HighPro
@@ -51,9 +51,7 @@
                 <ul class="navbar-nav justify-content-between ">
                   <div class="User_option">
                     <li class="">
-                      <a class="" href="contact.html">
-                        Login
-                      </a>
+
                     </li>
                     <form class="form-inline my-2 ml-5 mb-3 mb-lg-0">
                       <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
@@ -78,11 +76,11 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="service.html">SERVICES</a>
-                <a href="team.html">TEAM</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contact.html">CONTACT US</a>
+                <a href="{{url('/index')}}">HOME</a>
+                <a href="{{url('/')}}">SERVICES</a>
+
+                <a href="{{url('/Blog')}}">BLOG</a>
+                <a href="{{url('/Contact')}}"> Contact </a>
               </div>
             </div>
           </div>

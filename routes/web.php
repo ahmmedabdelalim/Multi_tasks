@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use App\Http\Controllers\ExtractController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-    route::get('/' , [ExtractController::class ,'home']);
+    route::get('/' , [Controller::class ,'home']);
+    route::get('/Blog' , [Controller::class ,'blog']);
+    route::get('/Contact' , [Controller::class ,'contact']);
+    route::get('/index' , [Controller::class ,'index']);
 
 
 
