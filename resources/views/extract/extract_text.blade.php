@@ -1,4 +1,14 @@
 @extends('layouts.app')
+@section('meta_data')
+ <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+  <title>Extract Text From Image</title> 
+
+@endsection
 @section('style')
 <style>
   @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);

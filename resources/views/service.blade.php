@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 
-  <title>Extract Text From Image</title> 
+  <title>Our Service</title> 
 
 @endsection
 @section('content')
