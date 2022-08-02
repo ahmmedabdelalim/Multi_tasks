@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::group(['prefix' => 'Extract_Text_From_Image']  ,  function (){
+Route::group(['prefix' => 'Extract-Text-From-Image']  ,  function (){
 
     route::get('/' , [ExtractController::class ,'index']);
     Route::post('google-ocr', [ExtractController::class, 'submit'])->name('submit');

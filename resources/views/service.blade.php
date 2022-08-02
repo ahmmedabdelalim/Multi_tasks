@@ -1,5 +1,15 @@
 @extends('layouts.app')
 
+@section('meta_data')
+ <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+  <title>Extract Text From Image</title> 
+
+@endsection
 @section('content')
   <section class="service_section layout_padding">
     <div class="container">
@@ -30,7 +40,7 @@
           </div>
           <div class="detail-box">
             <h5 >
-             <a href="{{url('/extract_text/index')}}">Extract Text From  Images</a>
+             <a href="{{url('/Extract-Text-From-Image/')}}">Extract Text From  Images</a>
             </h5>
             <p>
                 The text extractor will allow you to extract text from any image. You may upload an image or document
