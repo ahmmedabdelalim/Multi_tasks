@@ -11,6 +11,8 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 
   <title>HighPro</title>
 
@@ -25,7 +27,10 @@
   <!-- Custom styles for this template -->
   <link href="{{asset('public/public/asset/css/style.css')}}" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="{{asset('public/public/asset/css/responsive.css')}}" rel="stylesheet" />
+  <link href="{{asset('public/asset/css/responsive.css')}}" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  @yield('style')
+
 </head>
 
 <body class="sub_page">
@@ -34,7 +39,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="{{url('/index')}}">
             <img src="{{asset('public/asset/images/logo.png')}}" alt="" />
             <span>
               HighPro
@@ -46,9 +51,7 @@
                 <ul class="navbar-nav justify-content-between ">
                   <div class="User_option">
                     <li class="">
-                      <a class="" href="contact.html">
-                        Login
-                      </a>
+
                     </li>
                     <form class="form-inline my-2 ml-5 mb-3 mb-lg-0">
                       <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
@@ -73,11 +76,11 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="service.html">SERVICES</a>
-                <a href="team.html">TEAM</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contact.html">CONTACT US</a>
+                <a href="{{url('/index')}}">HOME</a>
+                <a href="{{url('/')}}">SERVICES</a>
+
+                <a href="{{url('/Blog')}}">BLOG</a>
+                <a href="{{url('/Contact')}}"> Contact </a>
               </div>
             </div>
           </div>
@@ -184,10 +187,13 @@
   <!-- end  footer section -->
 
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="{{asset('public/asset/js/jquery-3.4.1.min.js')}}"></script>
+  <script type="text/javascript" src="{{asset('public/asset/js/bootstrap.js')}}"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   <script>
     function openNav() {
       document.getElementById("myNav").classList.toggle("menu_width")
@@ -220,6 +226,6 @@
   <!-- end owl carousel script -->
   @yield('script')
 </body>
-</body>
+
 
 </html>

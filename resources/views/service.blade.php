@@ -1,94 +1,6 @@
-<!DOCTYPE html>
-<html>
+@extends('layouts.app')
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <title>HighPro</title>
-
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-</head>
-
-<body class="sub_page">
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
-            <span>
-              HighPro
-            </span>
-          </a>
-          <div class="navbar-collapse" id="">
-            <div class="container">
-              <div class=" mr-auto flex-column flex-lg-row align-items-center">
-                <ul class="navbar-nav justify-content-between ">
-                  <div class="User_option">
-                    <li class="">
-                      <a class="" href="contact.html">
-                        Login
-                      </a>
-                    </li>
-                    <form class="form-inline my-2 ml-5 mb-3 mb-lg-0">
-                      <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                    </form>
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-            <div class="custom_menu-btn">
-              <button onclick="openNav()">
-                <span class="s-1">
-
-                </span>
-                <span class="s-2">
-
-                </span>
-                <span class="s-3">
-
-                </span>
-              </button>
-            </div>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="service.html">SERVICES</a>
-                <a href="team.html">TEAM</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contact.html">CONTACT US</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-  <!-- service section -->
-
+@section('content')
   <section class="service_section layout_padding">
     <div class="container">
       <div class="heading_container">
@@ -113,44 +25,16 @@
                 <path d="M16,10h10c0.552,0,1-0.447,1-1s-0.448-1-1-1H16c-0.552,0-1,0.447-1,1S15.448,10,16,10z" />
                 <path d="M16,24h24c0.552,0,1-0.447,1-1s-0.448-1-1-1H16c-0.552,0-1,0.447-1,1S15.448,24,16,24z" />
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+
             </svg>
           </div>
           <div class="detail-box">
-            <h5>
-              Storage
+            <h5 >
+             <a href="{{url('/extract_text/index')}}">Extract Text From  Images</a>
             </h5>
             <p>
-              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                The text extractor will allow you to extract text from any image. You may upload an image or document
+                 (.pdf) and the tool will pull text from the image. Once extracted, you can copy to your clipboard with one click.
             </p>
           </div>
         </div>
@@ -240,36 +124,7 @@
                  C178.283,152.597,179.051,145.899,175.36,141.291z" />
                 </g>
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+
             </svg>
 
           </div>
@@ -307,36 +162,7 @@
                  s22.015,9.876,22.015,22.015S399.777,142.396,387.638,142.396z" />
                 </g>
               </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
-              <g>
-              </g>
+             
             </svg>
 
           </div>
@@ -359,134 +185,5 @@
 
   </section>
 
-  <!-- end service section -->
+  @endsection
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info_info">
-            <h5>
-              Useful links
-            </h5>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when
-              looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-              letters,
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3 offset-md-1">
-          <div class="info_contact">
-            <h5>
-              Find us
-            </h5>
-            <div>
-              <div class="img-box">
-                <img src="images/location.png" width="18px" alt="">
-              </div>
-              <p>
-                It is a long established fact that a reader will be distracted
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/telephone.png" width="12px" alt="">
-              </div>
-              <p>
-                +01 1234567890 <br>
-                +01 1234567890
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/mail.png" width="18px" alt="">
-              </div>
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 offset-md-1">
-          <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
-            <div class="social_box">
-              <a href="">
-                <img src="images/fb.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/twitter.png" alt="">
-              </a>
-              <a href="">
-                <img src="images/instagram.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end info_section -->
-
-
-  <!-- footer section -->
-  <footer class="container-fluid footer_section ">
-    <div class="container">
-      <p>
-        &copy; 2021 All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- end  footer section -->
-
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script>
-    function openNav() {
-      document.getElementById("myNav").classList.toggle("menu_width")
-      document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
-    }
-  </script>
-
-
-  <!-- owl carousel script -->
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 20,
-      navText: [],
-      autoplay: true,
-      autoplayHoverPause: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
-      }
-    });
-  </script>
-  <!-- end owl carousel script -->
-</body>
-</body>
-
-</html>
