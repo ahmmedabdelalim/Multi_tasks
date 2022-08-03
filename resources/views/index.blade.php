@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 
-  <title>Multi Tasks</title> 
+  <title>Multi Tasks</title>
 
 @endsection
 @section('content')
@@ -71,7 +71,7 @@
           </div>
           <div class="detail-box">
             <h5 >
-             <a href="{{url('/extract_text/index')}}">Extract Text From  Images</a>
+             <a href="{{url('/Extract-Text-From-Image/')}}">Extract Text From  Images</a>
             </h5>
             <p>
                 The text extractor will allow you to extract text from any image. You may upload an image or document

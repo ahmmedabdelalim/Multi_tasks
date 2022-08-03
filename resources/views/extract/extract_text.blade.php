@@ -1,12 +1,35 @@
 @extends('layouts.app')
 @section('meta_data')
- <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+<meta name="keywords" content="image to text, image to text converter, convert image to text, from image to text, extract text from image">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="google" content="notranslate">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="Ahmed Abdelalim" content="MultiTasks">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content=" Convert image to text - Exract text from images online Multi Task" />
+
+  <meta property="og:title" content="Extract Text From an Image Online Text Extractor">
+  <meta name="twitter:title" content="Extract Text From an Image Online Text Extractor"/>
+  <meta property="og:url" content="https://multi-tasks207.herokuapp.com/Extract-Text-From-Image"/>
+
+  <meta name="description" content="Use the Multi Task web app to extract text from an image or document  ,
+  Convert image to text, online and for free. Online text document converter to extract text from all kinds of images such as PNG" />
+
+  <meta name="twitter:description" content="Use the Multi Task web app to extract text from an image  ,
+  Convert image to text, online and for free. Online text document converter to extract text from all kinds of images such as PNG" />
+
+  <meta property="og:description" content="Use the Multi Task web app to extract text from an image or document. Simple, easy & fast." />
+
+  <link rel="canonical" href="https://multi-tasks207.herokuapp.com/Extract-Text-From-Image" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/asset/images/icon.JFIF')}}" />
 
 
-  <title>Extract Text From Image</title> 
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Jv7eOGjIoQdg2Ijwssfdk+gU17STFk8XLpTvIf9oJtWe2VFgoOSzvyzisktVQJDojd/h4FNg28mLFS6FOkFOOw==" />
+
+
+  <title>Extract Text From Image</title>
 
 @endsection
 @section('style')
@@ -213,7 +236,7 @@ label {
     box-sizing: border-box;
     width: 512px;
     height: auto;
- 
+
     resize: none;
 }
 textarea {
@@ -252,14 +275,14 @@ textarea {
       <div id="notimage" class="hidden">Please select an image</div>
       <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
     </div>
-    
+
     <div id="response" class="hidden">
       <div id="messages"></div>
       <progress class="progress" id="file-progress" value="0">
         <span>0</span>%
       </progress>
     </div>
-    
+
 
   </label>
   <button type="submit"  style="text-align:center" id="file-progress" class="btn btn-primary" >Parse Text</button>
@@ -276,8 +299,8 @@ textarea {
 
     <br>
     <br>
- 
- 
+
+
    <!-- <div style="padding:10px"><h2>Upload Image</h2>
     <form class="" enctype="multipart/form-data" method="post" action="{{route('submit')}}">
         {{csrf_field()}}
@@ -290,7 +313,7 @@ textarea {
 @section('script')
 <script >
   // File Upload
-// 
+//
 function ekUpload(){
   function Init() {
 
@@ -348,7 +371,7 @@ function ekUpload(){
     output(
       '<strong>' + encodeURI(file.name) + '</strong>'
     );
-    
+
     // var fileType = file.type;
     // console.log(fileType);
     var imageName = file.name;
