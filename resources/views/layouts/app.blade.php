@@ -8,6 +8,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="google-site-verification" content="IoTNFRd7c_5cEOw53bUx-wVTSa1ClrnpV7Sds5-VLik" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/asset/images/team.PNG')}}" />
 
   @yield('meta_data')
 

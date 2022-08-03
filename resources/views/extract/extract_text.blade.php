@@ -22,7 +22,7 @@
   <meta property="og:description" content="Use the Multi Task web app to extract text from an image or document. Simple, easy & fast." />
 
   <link rel="canonical" href="https://multi-tasks207.herokuapp.com/Extract-Text-From-Image" />
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/asset/images/icon.JFIF')}}" />
+  
 
 
   <meta name="csrf-param" content="authenticity_token" />
