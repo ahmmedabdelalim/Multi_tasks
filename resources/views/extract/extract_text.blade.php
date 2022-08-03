@@ -22,7 +22,7 @@
   <meta property="og:description" content="Use the Multi Task web app to extract text from an image or document. Simple, easy & fast." />
 
   <link rel="canonical" href="https://multi-tasks207.herokuapp.com/Extract-Text-From-Image" />
-  
+
 
 
   <meta name="csrf-param" content="authenticity_token" />
@@ -257,7 +257,7 @@ textarea {
 
 <div style="padding:100px">
  <div>
-<h2>File Upload & Image Preview</h2>
+<h2>Extract Text From an Image Online Text Extractor</h2>
 <br>
 
 <p class="lead">The text extractor will allow you to extract text from any image. You may upload an image or document (.pdf) and the tool will pull text from the image. Once extracted, you can copy to your clipboard with one click.</p>
