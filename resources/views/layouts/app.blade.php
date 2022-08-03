@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  
+  <meta name="google-site-verification" content="IoTNFRd7c_5cEOw53bUx-wVTSa1ClrnpV7Sds5-VLik" />
+
   @yield('meta_data')
 
   <!-- slider stylesheet -->
